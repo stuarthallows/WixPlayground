@@ -1,13 +1,13 @@
 ﻿<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
   <Package 
 	  Name="WixTutorialPackage" 
-	  Manufacturer="Hallows Inc" 
+	  Manufacturer="Edgerock Concepts" 
 	  Version="1.0.0.0" 
 	  UpgradeCode="6585607d-20bd-45d3-850f-7fffcb9ba3d8">
     <MajorUpgrade DowngradeErrorMessage="!(loc.DowngradeError)" />
 
     <Feature Id="Main">
-      <ComponentGroupRef Id="ExampleComponents" />
+      <ComponentGroupRef Id="AppComponents" />
     </Feature>
   </Package>
 </Wix>
