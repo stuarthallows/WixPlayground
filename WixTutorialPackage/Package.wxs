@@ -6,6 +6,8 @@
 	  UpgradeCode="6585607d-20bd-45d3-850f-7fffcb9ba3d8">
     <MajorUpgrade DowngradeErrorMessage="!(loc.DowngradeError)" />
 
+	<MediaTemplate EmbedCab="yes" />
+	  
     <Feature Id="Main">
       <ComponentGroupRef Id="AppComponents" />
     </Feature>
