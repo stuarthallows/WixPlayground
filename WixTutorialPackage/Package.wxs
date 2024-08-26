@@ -5,6 +5,7 @@
 	  Version="1.0.0.0" 
 	  UpgradeCode="6585607d-20bd-45d3-850f-7fffcb9ba3d8">
     <MajorUpgrade DowngradeErrorMessage="!(loc.DowngradeError)" />
+	<Launch Condition="MsiNTProductType = 1" Message="TODO Wrong OS type! TODO" />
 
 	<MediaTemplate EmbedCab="yes" />
 	  

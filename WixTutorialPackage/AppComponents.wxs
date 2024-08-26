@@ -2,8 +2,14 @@
   <Fragment>
     <ComponentGroup Id="AppComponents" Directory="INSTALLFOLDER">
       <Component>
-        <File Source="App.exe" />
+        <File Source="App.dll" />
       </Component>
+	  <Component>
+		<File Source="App.exe" />
+	  </Component>
+		<Component>
+			<File Source="App.runtimeconfig.json" />
+		</Component>
     </ComponentGroup>
   </Fragment>
 </Wix>
